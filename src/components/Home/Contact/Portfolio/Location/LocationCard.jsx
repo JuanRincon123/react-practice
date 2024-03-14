@@ -4,7 +4,7 @@ const LocationCard = ({infoApi}) => {
     console.log(infoApi)
   return (
     <article>
-      <h1>{`#${infoApi?.id} - ${infoApi?.name}`}</h1>
+      {/* <h1>{`#${infoApi?.id} - ${infoApi?.name}`}</h1> */}
     </article>
   )
 }
